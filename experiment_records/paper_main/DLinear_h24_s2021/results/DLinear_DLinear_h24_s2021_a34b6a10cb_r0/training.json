@@ -1,0 +1,9 @@
+{
+  "best_epoch": 9,
+  "best_validation_mse": 0.10029866595198611,
+  "epochs_completed": 12,
+  "training_seconds": 191.35400819999995,
+  "train_windows": 18053,
+  "validation_windows": 2609,
+  "peak_allocated_mib": 57.21484375
+}

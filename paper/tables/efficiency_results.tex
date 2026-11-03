@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering
+\caption{对比模型的实测资源开销（训练时间为3个种子的均值$\pm$样本标准差；显存为GPU张量峰值）}
+\label{tab:efficiency}
+\vspace{4pt}
+\small\setlength{\tabcolsep}{7pt}
+\begin{tabular}{lrrrrrr}\toprule
+ & \multicolumn{3}{c}{$H=24$} & \multicolumn{3}{c}{$H=96$}\\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+模型 & 参数量 & 时间/s & 显存/MiB & 参数量 & 时间/s & 显存/MiB\\\midrule
+DLinear & 16,176 & $163.2\pm44.6$ & 57.21 & 64,704 & $107.5\pm41.5$ & 72.14\\
+LSTM & 633,112 & $167.9\pm35.0$ & 109.08 & 2,135,392 & $221.7\pm55.5$ & 139.93\\
+GRU & 600,024 & $158.0\pm54.2$ & 113.30 & 2,102,304 & $167.7\pm49.7$ & 142.59\\
+Core & 29,107 & $236.1\pm90.9$ & 64.52 & 77,635 & $290.4\pm50.8$ & 84.41\\
+\bottomrule\end{tabular}
+\end{table*}

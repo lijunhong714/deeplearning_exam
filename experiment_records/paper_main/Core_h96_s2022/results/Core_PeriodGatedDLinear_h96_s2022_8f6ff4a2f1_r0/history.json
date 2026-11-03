@@ -1,0 +1,104 @@
+[
+  {
+    "epoch": 1,
+    "train_mse": 0.14564724678981555,
+    "validation_mse": 0.1180284228736449,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 2,
+    "train_mse": 0.13737940761501483,
+    "validation_mse": 0.11882672975368236,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 3,
+    "train_mse": 0.13624104264414846,
+    "validation_mse": 0.11690050892202816,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 4,
+    "train_mse": 0.13550125315472983,
+    "validation_mse": 0.11552017304579848,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 5,
+    "train_mse": 0.1350505477231122,
+    "validation_mse": 0.11587922723923472,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 6,
+    "train_mse": 0.13475842725765877,
+    "validation_mse": 0.11568449835693356,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 7,
+    "train_mse": 0.13442734815252813,
+    "validation_mse": 0.11535838379304568,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 8,
+    "train_mse": 0.13416705965352704,
+    "validation_mse": 0.11635138318108121,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 9,
+    "train_mse": 0.1339483197247463,
+    "validation_mse": 0.11521351491176787,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 10,
+    "train_mse": 0.13375290247880672,
+    "validation_mse": 0.11488724400832727,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 11,
+    "train_mse": 0.1335850170661276,
+    "validation_mse": 0.11486946376931224,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 12,
+    "train_mse": 0.1333797529027364,
+    "validation_mse": 0.1148410254847545,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 13,
+    "train_mse": 0.13327897572763026,
+    "validation_mse": 0.11488894947848491,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 14,
+    "train_mse": 0.13312406775206337,
+    "validation_mse": 0.11449088289564766,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 15,
+    "train_mse": 0.13301555136871593,
+    "validation_mse": 0.11472804445106441,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 16,
+    "train_mse": 0.13292119388542267,
+    "validation_mse": 0.1146507271724435,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 17,
+    "train_mse": 0.13283710873981888,
+    "validation_mse": 0.11455603829112335,
+    "train_batches": 1124
+  }
+]

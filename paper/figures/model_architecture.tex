@@ -1,0 +1,25 @@
+\begin{tikzpicture}[
+  font=\small, >=Latex,
+  box/.style={draw=black!70,rounded corners=2pt,align=center,minimum height=11mm,inner sep=3mm},
+  branch/.style={box,minimum width=43mm,fill=black!3},
+  flow/.style={->,line width=.65pt}]
+\node[box,minimum width=56mm] (input) at (0,0) {历史负荷窗口 $X$\\$B\times336\times321$};
+\node[branch] (linear) at (-5.6,-2.05) {DLinear 分支\\移动平均分解与线性映射};
+\node[branch] (daily) at (0,-2.05) {日周期分支 $P=24$\\14日模板均值与残差 MLP};
+\node[branch] (weekly) at (5.6,-2.05) {周周期分支 $P=168$\\2周模板均值与残差 MLP};
+\coordinate (split) at (0,-.92);
+\draw[flow] (input) -- (linear);
+\draw[flow] (input) -- (daily);
+\draw[flow] (input) -- (weekly);
+\node[box,minimum width=51mm,fill=blue!4] (features) at (5.6,0) {每样本每用户的8维统计量\\仅来自历史窗口};
+\draw[flow] (input) -- (features);
+\node[box,minimum width=51mm,fill=blue!4] (gate) at (5.6,1.65) {门控 MLP 与 Softmax\\$\alpha\in\mathbb{R}^{B\times321\times3}$};
+\draw[flow] (features) -- (gate);
+\node[box,minimum width=64mm,fill=blue!4] (fusion) at (0,-4.15) {三个预测分支加权求和\\同一窗口内跨预测步共享门控权重};
+\draw[flow] (linear) |- (fusion.west);
+\draw[flow] (daily) -- (fusion);
+\draw[flow] (weekly) |- (fusion.east);
+\draw[flow,dashed] (gate.east) -- ++(1.15,0) |- ([yshift=2mm]fusion.east);
+\node[box,minimum width=56mm] (output) at (0,-5.9) {未来负荷预测 $\widehat Y$\\$B\times H\times321$，$H\in\{24,96\}$};
+\draw[flow] (fusion) -- (output);
+\end{tikzpicture}

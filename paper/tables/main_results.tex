@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering
+\caption{对比实验结果（3个种子的均值$\pm$样本标准差，误差越小越好；粗体为各列最优）}
+\label{tab:main}
+\vspace{4pt}
+\small\setlength{\tabcolsep}{9pt}
+\begin{tabular}{lcccc}\toprule
+模型 & \multicolumn{2}{c}{$H=24$} & \multicolumn{2}{c}{$H=96$}\\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+ & MAE & RMSE & MAE & RMSE\\\midrule
+DLinear & $0.2132\pm0.0005$ & $0.3340\pm0.0003$ & $0.2415\pm0.0020$ & $0.3779\pm0.0009$\\
+LSTM & $0.3602\pm0.0058$ & $0.5140\pm0.0044$ & $0.3790\pm0.0066$ & $0.5415\pm0.0049$\\
+GRU & $0.3645\pm0.0015$ & $0.5117\pm0.0005$ & $0.3880\pm0.0030$ & $0.5500\pm0.0017$\\
+Core & $\mathbf{0.1998\pm0.0016}$ & $\mathbf{0.3195\pm0.0014}$ & $\mathbf{0.2292\pm0.0005}$ & $\mathbf{0.3656\pm0.0004}$\\
+\bottomrule\end{tabular}
+\end{table*}

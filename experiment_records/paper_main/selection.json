@@ -1,0 +1,503 @@
+{
+  "variants": [
+    "DLinear",
+    "LSTM",
+    "GRU",
+    "Core"
+  ],
+  "runs": 24,
+  "seeds": [
+    2021,
+    2022,
+    2023
+  ],
+  "horizons": [
+    24,
+    96
+  ],
+  "original_summary_sha256": "c4090a6679ce971dbcf0f19acc144ec27417e2315b34c59adb725781a6587de6",
+  "original_manifest_sha256": "7d2f95b54a9b0fc8013ccb13052b0a3728d7747af8561dfbfa3c7afd8b2a1afd",
+  "note": "Original run manifest is unchanged and may describe additional jobs; the paper selects the variants listed here.",
+  "files": [
+    {
+      "path": "DLinear_h24_s2021/results/DLinear_DLinear_h24_s2021_a34b6a10cb_r0/metrics.json",
+      "sha256": "db5b8394f522e5cb81b6fb89b81babf9f9b41567f4f4edffc45544c5c4676c25"
+    },
+    {
+      "path": "DLinear_h24_s2021/results/DLinear_DLinear_h24_s2021_a34b6a10cb_r0/config.json",
+      "sha256": "b9fbb2bac7ddc0ac338351efc42a3c030cb3020736e69b07754af2e3fcccb5e3"
+    },
+    {
+      "path": "DLinear_h24_s2021/results/DLinear_DLinear_h24_s2021_a34b6a10cb_r0/history.json",
+      "sha256": "381f7d40c23454652c36b600e0e6e7ab0ffea317e5041f9ce3dd28e50edc8bf0"
+    },
+    {
+      "path": "DLinear_h24_s2021/results/DLinear_DLinear_h24_s2021_a34b6a10cb_r0/training.json",
+      "sha256": "4846bfdbc4fad9677f316a26f720964c8a018a06086222142cab403769a00fd1"
+    },
+    {
+      "path": "DLinear_h24_s2021/results/DLinear_DLinear_h24_s2021_a34b6a10cb_r0/per_horizon.csv",
+      "sha256": "58e88cc1a606f874fab2d8a11f8567492aea9275b2c4d18f2abb7b4b7167baa7"
+    },
+    {
+      "path": "DLinear_h24_s2022/results/DLinear_DLinear_h24_s2022_06a593ce71_r0/metrics.json",
+      "sha256": "f4e8c177ab949519c0d6e7b1ed1449160bfd662dd3bbfb9f0955a2f668f34795"
+    },
+    {
+      "path": "DLinear_h24_s2022/results/DLinear_DLinear_h24_s2022_06a593ce71_r0/config.json",
+      "sha256": "714027b777a4a576873c8597dd4f5a0861c3fa1473e7e3990ee0bbe755b31043"
+    },
+    {
+      "path": "DLinear_h24_s2022/results/DLinear_DLinear_h24_s2022_06a593ce71_r0/history.json",
+      "sha256": "ad07c6510a436e94864c142cdbffcaa9f4368c2bbd2948921af6115971685173"
+    },
+    {
+      "path": "DLinear_h24_s2022/results/DLinear_DLinear_h24_s2022_06a593ce71_r0/training.json",
+      "sha256": "a1fe030b303e122165762341c2e0e3e0ff4edd3dd534818b86998a162eac1234"
+    },
+    {
+      "path": "DLinear_h24_s2022/results/DLinear_DLinear_h24_s2022_06a593ce71_r0/per_horizon.csv",
+      "sha256": "5cb8dc0624a6a3b96f114acac47bcd3a1ef9e145e92b745fa4b488a2a81cc742"
+    },
+    {
+      "path": "DLinear_h24_s2023/results/DLinear_DLinear_h24_s2023_47704e2a45_r0/metrics.json",
+      "sha256": "0a62830285849d6ccf9ac04bf8a13a58a3a9cd57f5b5605f2f51ba539167f1d4"
+    },
+    {
+      "path": "DLinear_h24_s2023/results/DLinear_DLinear_h24_s2023_47704e2a45_r0/config.json",
+      "sha256": "ad9215bd7dd71521d08fa8b4955107006343ddcf6293913f2a1ade3b794e66af"
+    },
+    {
+      "path": "DLinear_h24_s2023/results/DLinear_DLinear_h24_s2023_47704e2a45_r0/history.json",
+      "sha256": "e954a9bf61e521501755a7c49c5dd5d993d6e1cb77aca1af04ccf98217da24df"
+    },
+    {
+      "path": "DLinear_h24_s2023/results/DLinear_DLinear_h24_s2023_47704e2a45_r0/training.json",
+      "sha256": "06aa537313c4945e31053f82ad0e25dc5d38e4d8fd9741cc06fd0a6a879b874f"
+    },
+    {
+      "path": "DLinear_h24_s2023/results/DLinear_DLinear_h24_s2023_47704e2a45_r0/per_horizon.csv",
+      "sha256": "dc86568039cf36b933f825d77410f3be19ddc3c38a1138526e84ba55ff1f7c12"
+    },
+    {
+      "path": "DLinear_h96_s2021/results/DLinear_DLinear_h96_s2021_10e01be035_r0/metrics.json",
+      "sha256": "394e8924367fa31bada90d3bc05e9f650761c1c2bbc036f919fefe8604b15a6b"
+    },
+    {
+      "path": "DLinear_h96_s2021/results/DLinear_DLinear_h96_s2021_10e01be035_r0/config.json",
+      "sha256": "dd2f1fae76e9c98f926292b6c1545a5295097cc73cad409a8b1018e9da422935"
+    },
+    {
+      "path": "DLinear_h96_s2021/results/DLinear_DLinear_h96_s2021_10e01be035_r0/history.json",
+      "sha256": "03dd5bfac0db6525440b6d7fdba494f1776aea2415a5d77bb162f1b8a3cbe182"
+    },
+    {
+      "path": "DLinear_h96_s2021/results/DLinear_DLinear_h96_s2021_10e01be035_r0/training.json",
+      "sha256": "6e9693556b7a4f55e6844cc534b41a65efafd91bd505263e1a62985a4d249e9c"
+    },
+    {
+      "path": "DLinear_h96_s2021/results/DLinear_DLinear_h96_s2021_10e01be035_r0/per_horizon.csv",
+      "sha256": "a7dacf66ad196f613dcfd28760a5e1dacf0b221a1561236f56c6f62edf1261fe"
+    },
+    {
+      "path": "DLinear_h96_s2022/results/DLinear_DLinear_h96_s2022_9bf806ead6_r0/metrics.json",
+      "sha256": "e33f65f64a101b27d96884b2510f58403aab7d4a1b7376fad06f656e2d0c0077"
+    },
+    {
+      "path": "DLinear_h96_s2022/results/DLinear_DLinear_h96_s2022_9bf806ead6_r0/config.json",
+      "sha256": "ff9f7927a66d40be68803466caf08a8c28f3d6ddb9aa214484740ad9b9e5ff0d"
+    },
+    {
+      "path": "DLinear_h96_s2022/results/DLinear_DLinear_h96_s2022_9bf806ead6_r0/history.json",
+      "sha256": "4931628c263e5889487e2a97fc1022d91dae979ad91ea6d43cf3069de0448cca"
+    },
+    {
+      "path": "DLinear_h96_s2022/results/DLinear_DLinear_h96_s2022_9bf806ead6_r0/training.json",
+      "sha256": "ce3ec413b39e48039e37cbeb2891596cb01b3737cba78b3d1c50f86411d05347"
+    },
+    {
+      "path": "DLinear_h96_s2022/results/DLinear_DLinear_h96_s2022_9bf806ead6_r0/per_horizon.csv",
+      "sha256": "c92845668120b24f0e26d428cb8866c62faed77fdf8562673b048412a799c43c"
+    },
+    {
+      "path": "DLinear_h96_s2023/results/DLinear_DLinear_h96_s2023_b84e92ac0d_r0/metrics.json",
+      "sha256": "bed56128e8da5437a0cbcc25ac68f6fcfc47994db759b2efd548ffe5417cebc4"
+    },
+    {
+      "path": "DLinear_h96_s2023/results/DLinear_DLinear_h96_s2023_b84e92ac0d_r0/config.json",
+      "sha256": "bcdd35704392a25255854d1e3e8dbbe364c5827ac42b63565b50b32d208c4c52"
+    },
+    {
+      "path": "DLinear_h96_s2023/results/DLinear_DLinear_h96_s2023_b84e92ac0d_r0/history.json",
+      "sha256": "c462cb913072870cb412f6fbe84699d5bbdba4c6c815bac8ef4d2839f53416d3"
+    },
+    {
+      "path": "DLinear_h96_s2023/results/DLinear_DLinear_h96_s2023_b84e92ac0d_r0/training.json",
+      "sha256": "d2b44c76f1d167f2aa7a416b251d4c9f180776b7f576aeeaad75f454fa0b454d"
+    },
+    {
+      "path": "DLinear_h96_s2023/results/DLinear_DLinear_h96_s2023_b84e92ac0d_r0/per_horizon.csv",
+      "sha256": "9462747c5b8961070d9e7c857aca039b4f31389a41b2aec6b6d39951d5028408"
+    },
+    {
+      "path": "LSTM_h24_s2021/results/LSTM_LSTM_h24_s2021_7a35f9220b_r0/metrics.json",
+      "sha256": "0f2dae598e831ad52b486e7c4fc9bb2fb98f03f988cac1cafaefc72b2ae6005b"
+    },
+    {
+      "path": "LSTM_h24_s2021/results/LSTM_LSTM_h24_s2021_7a35f9220b_r0/config.json",
+      "sha256": "df233534aaa534192b4562a118d3ad9fc91351d2e7ece555bfcbf28c4dbecfc0"
+    },
+    {
+      "path": "LSTM_h24_s2021/results/LSTM_LSTM_h24_s2021_7a35f9220b_r0/history.json",
+      "sha256": "4a9da186574b5da9a9aee80718d3afac8828e05a32d5f7e85ab2f91dac9205c0"
+    },
+    {
+      "path": "LSTM_h24_s2021/results/LSTM_LSTM_h24_s2021_7a35f9220b_r0/training.json",
+      "sha256": "c6daf72b6a9b1ea7064b65fa5a6410126c8a06f17b9e28bb6d337bd18103b06c"
+    },
+    {
+      "path": "LSTM_h24_s2021/results/LSTM_LSTM_h24_s2021_7a35f9220b_r0/per_horizon.csv",
+      "sha256": "b8a7c162445ac454fda85605db2fca224bbb2a493e3473f20e446e57dd48a049"
+    },
+    {
+      "path": "LSTM_h24_s2022/results/LSTM_LSTM_h24_s2022_66e74352dc_r0/metrics.json",
+      "sha256": "ccc4c50ccb90fa6331d82a62bf0fa7846444e9a974dee4619f3d2124d086d270"
+    },
+    {
+      "path": "LSTM_h24_s2022/results/LSTM_LSTM_h24_s2022_66e74352dc_r0/config.json",
+      "sha256": "abcef3e4ea52319abbbf7e027fe280deeee55903cbf3d69a352453549cbcb5b7"
+    },
+    {
+      "path": "LSTM_h24_s2022/results/LSTM_LSTM_h24_s2022_66e74352dc_r0/history.json",
+      "sha256": "a3ed8ba8fdb4e73882e0c9d271f97a106790a71a600f4f680e2b411e190a8979"
+    },
+    {
+      "path": "LSTM_h24_s2022/results/LSTM_LSTM_h24_s2022_66e74352dc_r0/training.json",
+      "sha256": "2e8bf09d72dd6ad67b383fe06d6c26827aadd173d3c2d01eed697389d02d2597"
+    },
+    {
+      "path": "LSTM_h24_s2022/results/LSTM_LSTM_h24_s2022_66e74352dc_r0/per_horizon.csv",
+      "sha256": "f06d5f7f4b1b82a7debf6e43572cc8ea3f05961eb373b186d89608cdb2e88c50"
+    },
+    {
+      "path": "LSTM_h24_s2023/results/LSTM_LSTM_h24_s2023_b814e17e0f_r0/metrics.json",
+      "sha256": "455ecc417747eaa393bf62e3410a4365c9f5f43452a8d9785fd5a926d75a3c64"
+    },
+    {
+      "path": "LSTM_h24_s2023/results/LSTM_LSTM_h24_s2023_b814e17e0f_r0/config.json",
+      "sha256": "6ede1b182398d97bb219fe308b8e18ec8ce88680668fba41d7172e3bf0b034f4"
+    },
+    {
+      "path": "LSTM_h24_s2023/results/LSTM_LSTM_h24_s2023_b814e17e0f_r0/history.json",
+      "sha256": "e5a786518932319e3a010041081f0d8fdfdc9e3481961a369566a98a1102498b"
+    },
+    {
+      "path": "LSTM_h24_s2023/results/LSTM_LSTM_h24_s2023_b814e17e0f_r0/training.json",
+      "sha256": "3d8683ca6fa0e11043bad776260ed768a92dc9d421b772f113c4d01155afad3b"
+    },
+    {
+      "path": "LSTM_h24_s2023/results/LSTM_LSTM_h24_s2023_b814e17e0f_r0/per_horizon.csv",
+      "sha256": "162c798b4a83ab0dc955cd2ec7dfe6d0a3cc99268555b9b7f9e7d0c3462b0818"
+    },
+    {
+      "path": "LSTM_h96_s2021/results/LSTM_LSTM_h96_s2021_486398c252_r0/metrics.json",
+      "sha256": "de8d09950f78611b2d0a463ec37f6a5bc07b753fdee6614453ed35073ea754de"
+    },
+    {
+      "path": "LSTM_h96_s2021/results/LSTM_LSTM_h96_s2021_486398c252_r0/config.json",
+      "sha256": "9ba39f2965ec0dfc3a36ff4e862df075e0b4966e8fbf2291afff0002f5343f7f"
+    },
+    {
+      "path": "LSTM_h96_s2021/results/LSTM_LSTM_h96_s2021_486398c252_r0/history.json",
+      "sha256": "c70bf7b3eacc4a4d7a5f2eddd1e85a1bb75f842ef23a5c8da7d052287e5f0ff7"
+    },
+    {
+      "path": "LSTM_h96_s2021/results/LSTM_LSTM_h96_s2021_486398c252_r0/training.json",
+      "sha256": "c7fed38ab468b0f317bfe94b3e71e4a365a49ada8c8e81670c2b70553160477d"
+    },
+    {
+      "path": "LSTM_h96_s2021/results/LSTM_LSTM_h96_s2021_486398c252_r0/per_horizon.csv",
+      "sha256": "5425f598974324cef0d58c1e7da2f05f528ceb1a36693bffe0ff06515eda4636"
+    },
+    {
+      "path": "LSTM_h96_s2022/results/LSTM_LSTM_h96_s2022_82d24ee606_r0/metrics.json",
+      "sha256": "26814de2b4b8186a8b91fe4cc627407fa6d2eb97fbd2573864530de564109e9f"
+    },
+    {
+      "path": "LSTM_h96_s2022/results/LSTM_LSTM_h96_s2022_82d24ee606_r0/config.json",
+      "sha256": "29bdb78a8dd2ec1ba81b8debde1de136932b2dc2ca2cdcb18ef446b3a4adb281"
+    },
+    {
+      "path": "LSTM_h96_s2022/results/LSTM_LSTM_h96_s2022_82d24ee606_r0/history.json",
+      "sha256": "2f4746989ab07ce4747e112ca2c6e340a2e2f5da9828147eee2457fadf53a797"
+    },
+    {
+      "path": "LSTM_h96_s2022/results/LSTM_LSTM_h96_s2022_82d24ee606_r0/training.json",
+      "sha256": "0cf39c24e08cfd85d1ad984dbac5e5e05234bd5cee37b55e53ec7ceebaba7331"
+    },
+    {
+      "path": "LSTM_h96_s2022/results/LSTM_LSTM_h96_s2022_82d24ee606_r0/per_horizon.csv",
+      "sha256": "03d2bce5d986cf9a49012ab8c30f5138f611f295aa8e10df34c5145845492552"
+    },
+    {
+      "path": "LSTM_h96_s2023/results/LSTM_LSTM_h96_s2023_11fa611887_r0/metrics.json",
+      "sha256": "4b425ca85cc09bf95f1f649afb73218eef57d1f0c55c7013f0361c1fd19b7e01"
+    },
+    {
+      "path": "LSTM_h96_s2023/results/LSTM_LSTM_h96_s2023_11fa611887_r0/config.json",
+      "sha256": "7de65c2ce4ee92ceb858b44c224c66f9d9d0c7542d38fd67606236549c0a41c9"
+    },
+    {
+      "path": "LSTM_h96_s2023/results/LSTM_LSTM_h96_s2023_11fa611887_r0/history.json",
+      "sha256": "b65ae6e2e678033553f18b9ffacb6abe1772a12dc5212b452bcd18069d2dd308"
+    },
+    {
+      "path": "LSTM_h96_s2023/results/LSTM_LSTM_h96_s2023_11fa611887_r0/training.json",
+      "sha256": "9d25276c1b0977e72164ac4138c26308980b8f4a3ea1310747a00132f2f08655"
+    },
+    {
+      "path": "LSTM_h96_s2023/results/LSTM_LSTM_h96_s2023_11fa611887_r0/per_horizon.csv",
+      "sha256": "fb93aa6b4f1a25d14b970a41d3083a71a712582612c1ceca229845f0dea5a5e9"
+    },
+    {
+      "path": "GRU_h24_s2021/results/GRU_GRU_h24_s2021_e2e9e6a5b3_r0/metrics.json",
+      "sha256": "f0e83a10d6095a452dc2b4127fead52180ffb1775773e50e231b634712960739"
+    },
+    {
+      "path": "GRU_h24_s2021/results/GRU_GRU_h24_s2021_e2e9e6a5b3_r0/config.json",
+      "sha256": "9601a339b45bd431c824b4b2ecbb6fe6a267dfaeaea74e4aa08704757abcfed6"
+    },
+    {
+      "path": "GRU_h24_s2021/results/GRU_GRU_h24_s2021_e2e9e6a5b3_r0/history.json",
+      "sha256": "346e419ccacc5417ee917beffd011a5c795ab6c9a12501eef3731b14e4b6ab75"
+    },
+    {
+      "path": "GRU_h24_s2021/results/GRU_GRU_h24_s2021_e2e9e6a5b3_r0/training.json",
+      "sha256": "b996d9841d96e047a35df6fe28d456c73fa05697bf2fced022c9761631bd7e9f"
+    },
+    {
+      "path": "GRU_h24_s2021/results/GRU_GRU_h24_s2021_e2e9e6a5b3_r0/per_horizon.csv",
+      "sha256": "d635601447d8d11eaabc1e2709978608cd2a5c0284042ab1a91a978891bcb04d"
+    },
+    {
+      "path": "GRU_h24_s2022/results/GRU_GRU_h24_s2022_f089a6f024_r0/metrics.json",
+      "sha256": "59b4bfe52ae32de616a47bdbd05c10bafcd0f058781cadbe283c66205cd57532"
+    },
+    {
+      "path": "GRU_h24_s2022/results/GRU_GRU_h24_s2022_f089a6f024_r0/config.json",
+      "sha256": "1a74f3019cd0f912293e98fe742960de1229bfdfec23d5aaae1028f0ffaf88c0"
+    },
+    {
+      "path": "GRU_h24_s2022/results/GRU_GRU_h24_s2022_f089a6f024_r0/history.json",
+      "sha256": "8a25b5c8d760dba7ee8bddbefecfe7b1f47cde8d6243e6029bf9ab9fc725e6dc"
+    },
+    {
+      "path": "GRU_h24_s2022/results/GRU_GRU_h24_s2022_f089a6f024_r0/training.json",
+      "sha256": "876d9416d6924d86d01cec21e0b69b1a72f7b0b43cedf15e9b15060206482799"
+    },
+    {
+      "path": "GRU_h24_s2022/results/GRU_GRU_h24_s2022_f089a6f024_r0/per_horizon.csv",
+      "sha256": "044f996d0a87c85c3138b90ad38b175f7040da9631ea11b7a0bc6c39234401fa"
+    },
+    {
+      "path": "GRU_h24_s2023/results/GRU_GRU_h24_s2023_10069104fe_r0/metrics.json",
+      "sha256": "5c49165d2299262c7bcef3f5a850a7147062e3c013e8d35e317d565b6a9fe7b1"
+    },
+    {
+      "path": "GRU_h24_s2023/results/GRU_GRU_h24_s2023_10069104fe_r0/config.json",
+      "sha256": "bc31bcbdaea6a3598f083e67dd66aa5ddd26b5153bb5ded15e78c5945a0f06ba"
+    },
+    {
+      "path": "GRU_h24_s2023/results/GRU_GRU_h24_s2023_10069104fe_r0/history.json",
+      "sha256": "57416ef0adc644c2f79a235916004370bbc7407a5e0a0e4acc6a766276617fdb"
+    },
+    {
+      "path": "GRU_h24_s2023/results/GRU_GRU_h24_s2023_10069104fe_r0/training.json",
+      "sha256": "170efd8576fd2be39b98b7f54f7affd281a8c2cfcabd0a669a90660511d461a9"
+    },
+    {
+      "path": "GRU_h24_s2023/results/GRU_GRU_h24_s2023_10069104fe_r0/per_horizon.csv",
+      "sha256": "be444e86c6d2a4e802cd084e0d91aaff477671be1e9b6f1612b5341543c423aa"
+    },
+    {
+      "path": "GRU_h96_s2021/results/GRU_GRU_h96_s2021_20d64a232f_r0/metrics.json",
+      "sha256": "74ac3db8ada1fe95d6177f01f4a35fba6edaa198c172161fc6947c40b8c67aa0"
+    },
+    {
+      "path": "GRU_h96_s2021/results/GRU_GRU_h96_s2021_20d64a232f_r0/config.json",
+      "sha256": "30255e71186adf3ca58f1f348a194ec9b08c4eca935851fcba2a5f0712bc4005"
+    },
+    {
+      "path": "GRU_h96_s2021/results/GRU_GRU_h96_s2021_20d64a232f_r0/history.json",
+      "sha256": "0c929c711527c27c97f9fd3371126382288dd55a284d854f18ef697c1907ae2b"
+    },
+    {
+      "path": "GRU_h96_s2021/results/GRU_GRU_h96_s2021_20d64a232f_r0/training.json",
+      "sha256": "cc1d73ae3f37b4e6bfc8301c4e920c8e2259d0b8ee2c74a4fe7af7fcc22cfe49"
+    },
+    {
+      "path": "GRU_h96_s2021/results/GRU_GRU_h96_s2021_20d64a232f_r0/per_horizon.csv",
+      "sha256": "c6ed278f35b1db03bcf2cb15d4288673d94004d9f44a94a52dc096e97528cd57"
+    },
+    {
+      "path": "GRU_h96_s2022/results/GRU_GRU_h96_s2022_573bd47441_r0/metrics.json",
+      "sha256": "c439667a0603e4f971e0a3c703a0ef58b63b22ab9818227f8750d57db273c830"
+    },
+    {
+      "path": "GRU_h96_s2022/results/GRU_GRU_h96_s2022_573bd47441_r0/config.json",
+      "sha256": "13c6421a4439671c284b7359895a21fcfa5039e86d93fa0edf3428dbb2f2cb57"
+    },
+    {
+      "path": "GRU_h96_s2022/results/GRU_GRU_h96_s2022_573bd47441_r0/history.json",
+      "sha256": "7192c22f12c394293411bff49869199ecbeeff5c63bb2b687961e7e78c64cb80"
+    },
+    {
+      "path": "GRU_h96_s2022/results/GRU_GRU_h96_s2022_573bd47441_r0/training.json",
+      "sha256": "7c76b4ff747707f661787579f667edadef657fa0425ea65093bda38b037abea0"
+    },
+    {
+      "path": "GRU_h96_s2022/results/GRU_GRU_h96_s2022_573bd47441_r0/per_horizon.csv",
+      "sha256": "26d7a27acc4ba74283dda41a164cb826f80f0c040c651ae2a7f43d100644d426"
+    },
+    {
+      "path": "GRU_h96_s2023/results/GRU_GRU_h96_s2023_c53cd943d6_r0/metrics.json",
+      "sha256": "525ce7a8c7989b2d57a9abf4d3d097be19362a03e0c68ee3895f82d81b6e4a7b"
+    },
+    {
+      "path": "GRU_h96_s2023/results/GRU_GRU_h96_s2023_c53cd943d6_r0/config.json",
+      "sha256": "8aa23f4005b743046eda8fda623b5d5c96c5181133a014553ab2f5137fe07244"
+    },
+    {
+      "path": "GRU_h96_s2023/results/GRU_GRU_h96_s2023_c53cd943d6_r0/history.json",
+      "sha256": "58f3edf62f37cc6a23a07a9ebf16613a96505dc59e8adecdfc091a51720e9fd0"
+    },
+    {
+      "path": "GRU_h96_s2023/results/GRU_GRU_h96_s2023_c53cd943d6_r0/training.json",
+      "sha256": "6cf46fc29c66a14f2a19ab53e6142766f6e86f34c6e6025999f96659ec10949a"
+    },
+    {
+      "path": "GRU_h96_s2023/results/GRU_GRU_h96_s2023_c53cd943d6_r0/per_horizon.csv",
+      "sha256": "cc70317660bbdebe0b17406c1e1e8cfc0e6cb1f58a557ee90e940ac25d4b9d33"
+    },
+    {
+      "path": "Core_h24_s2021/results/Core_PeriodGatedDLinear_h24_s2021_b90023456c_r0/metrics.json",
+      "sha256": "ccabc457f19b4e0df9a5c0aae5e0a93b46cd51787fab548aacced045b7cc0f20"
+    },
+    {
+      "path": "Core_h24_s2021/results/Core_PeriodGatedDLinear_h24_s2021_b90023456c_r0/config.json",
+      "sha256": "ff0d1b9655f112fbdbf85e86725846f4f00c785ef2cf4db04b339094d40f73ca"
+    },
+    {
+      "path": "Core_h24_s2021/results/Core_PeriodGatedDLinear_h24_s2021_b90023456c_r0/history.json",
+      "sha256": "0db13decd6eb19566fda62fb4b5792415d7f678311b317cdde286c518319a50f"
+    },
+    {
+      "path": "Core_h24_s2021/results/Core_PeriodGatedDLinear_h24_s2021_b90023456c_r0/training.json",
+      "sha256": "b0d05202887471ba5b19fb002d7b7a9a94490864e9e084797c4aed475bc6d418"
+    },
+    {
+      "path": "Core_h24_s2021/results/Core_PeriodGatedDLinear_h24_s2021_b90023456c_r0/per_horizon.csv",
+      "sha256": "1ca97122e59a14938909e37dd8f09c8e3c952bec64f9a074a2ef723501278c4d"
+    },
+    {
+      "path": "Core_h24_s2022/results/Core_PeriodGatedDLinear_h24_s2022_154047ff3c_r0/metrics.json",
+      "sha256": "f7ca2da52ad49264e9eacc9340594192a0ff119f2b41f889dd1276cedb54d321"
+    },
+    {
+      "path": "Core_h24_s2022/results/Core_PeriodGatedDLinear_h24_s2022_154047ff3c_r0/config.json",
+      "sha256": "51b596f767cdde758bdb4146dc8fea8ca6e3ecbe1fbf11791eac4aa1d0b8b926"
+    },
+    {
+      "path": "Core_h24_s2022/results/Core_PeriodGatedDLinear_h24_s2022_154047ff3c_r0/history.json",
+      "sha256": "60f6b8ea4fcfbd6ecd7da6016d37cee143ccd138b49608663f84bc3a63f50658"
+    },
+    {
+      "path": "Core_h24_s2022/results/Core_PeriodGatedDLinear_h24_s2022_154047ff3c_r0/training.json",
+      "sha256": "5a752fd9914840c6a24505209c203a971cbe1b470be49b4c95faea5bc4a6d098"
+    },
+    {
+      "path": "Core_h24_s2022/results/Core_PeriodGatedDLinear_h24_s2022_154047ff3c_r0/per_horizon.csv",
+      "sha256": "b36f8306c4ba4407cbe11e9f2d447fe8d659c72b994c832f4fb609e72e77f8d4"
+    },
+    {
+      "path": "Core_h24_s2023/results/Core_PeriodGatedDLinear_h24_s2023_c7b144cfd7_r0/metrics.json",
+      "sha256": "97d48581052a773f8119d1005d7b464c5ab9cd3a39301410aea441d692be277d"
+    },
+    {
+      "path": "Core_h24_s2023/results/Core_PeriodGatedDLinear_h24_s2023_c7b144cfd7_r0/config.json",
+      "sha256": "931f3aecc42eac924324e802a1d6f268086f95644629154028009f1a5c531a82"
+    },
+    {
+      "path": "Core_h24_s2023/results/Core_PeriodGatedDLinear_h24_s2023_c7b144cfd7_r0/history.json",
+      "sha256": "c4d5392fc5564c5134cbb05fec9fb0af8019ea633faf86323332b225034e47e3"
+    },
+    {
+      "path": "Core_h24_s2023/results/Core_PeriodGatedDLinear_h24_s2023_c7b144cfd7_r0/training.json",
+      "sha256": "ac589086312e80d022b9f6104d1b7cb61728eb4dcf2da45ab51f96d7ab908d94"
+    },
+    {
+      "path": "Core_h24_s2023/results/Core_PeriodGatedDLinear_h24_s2023_c7b144cfd7_r0/per_horizon.csv",
+      "sha256": "bb44fbbfc1a243d89ae3f835a1de4d74468e1e0990faa60114cd77df9c65e80a"
+    },
+    {
+      "path": "Core_h96_s2021/results/Core_PeriodGatedDLinear_h96_s2021_3ce6a7a58a_r0/metrics.json",
+      "sha256": "54ce3c53e5d06c5298b2df9cb39a6fde6e1bc570b46804ae40b8fa32b11d1bf0"
+    },
+    {
+      "path": "Core_h96_s2021/results/Core_PeriodGatedDLinear_h96_s2021_3ce6a7a58a_r0/config.json",
+      "sha256": "fee7bba5a56fb6d8b5b6da35dafce0188f5f4eefd4e29feaa967fd5068b8065f"
+    },
+    {
+      "path": "Core_h96_s2021/results/Core_PeriodGatedDLinear_h96_s2021_3ce6a7a58a_r0/history.json",
+      "sha256": "3e63b0410679baaf5fb225d9384bf704b61c15cce9827f21b27f8e9560255f8b"
+    },
+    {
+      "path": "Core_h96_s2021/results/Core_PeriodGatedDLinear_h96_s2021_3ce6a7a58a_r0/training.json",
+      "sha256": "ba96e23613e28826143db118e83dfcd61f50af0c1892f35585b5dfa3f17c7b9b"
+    },
+    {
+      "path": "Core_h96_s2021/results/Core_PeriodGatedDLinear_h96_s2021_3ce6a7a58a_r0/per_horizon.csv",
+      "sha256": "b8d888fd2938dff11817996dad20f4151ba9593a01e6318cd366608b88ba1b6d"
+    },
+    {
+      "path": "Core_h96_s2022/results/Core_PeriodGatedDLinear_h96_s2022_8f6ff4a2f1_r0/metrics.json",
+      "sha256": "d25cf008ae00df7cb206b5818b1c56aec5ad943b155db67f309bb1da40eb6ebd"
+    },
+    {
+      "path": "Core_h96_s2022/results/Core_PeriodGatedDLinear_h96_s2022_8f6ff4a2f1_r0/config.json",
+      "sha256": "04316cea7f92b0aba7a94381222ccbf4b46d47caaa0fd412b63cafaeedde8010"
+    },
+    {
+      "path": "Core_h96_s2022/results/Core_PeriodGatedDLinear_h96_s2022_8f6ff4a2f1_r0/history.json",
+      "sha256": "0ed72788a0e06c8e57fbf993bd26e66dd5e0172fdd974dea085aed4985366572"
+    },
+    {
+      "path": "Core_h96_s2022/results/Core_PeriodGatedDLinear_h96_s2022_8f6ff4a2f1_r0/training.json",
+      "sha256": "25560e95b093440cb1bf7a958b04d06f6c9e62bfb209dc9bffdff1fa1ef59d60"
+    },
+    {
+      "path": "Core_h96_s2022/results/Core_PeriodGatedDLinear_h96_s2022_8f6ff4a2f1_r0/per_horizon.csv",
+      "sha256": "fc31d78d309f546ebdde22846fe8450e8659d66a4ae5266b32af725c1c2fef17"
+    },
+    {
+      "path": "Core_h96_s2023/results/Core_PeriodGatedDLinear_h96_s2023_9d76cedec3_r0/metrics.json",
+      "sha256": "05f2e99bd3e4029ee0ae2e5818c116c1dfb81d19c59bca82bc562389c3ed96b5"
+    },
+    {
+      "path": "Core_h96_s2023/results/Core_PeriodGatedDLinear_h96_s2023_9d76cedec3_r0/config.json",
+      "sha256": "51e37f02353350ba21efad9dff4177f2a8c41c18fe7e62bb2d33b680e4c981a5"
+    },
+    {
+      "path": "Core_h96_s2023/results/Core_PeriodGatedDLinear_h96_s2023_9d76cedec3_r0/history.json",
+      "sha256": "285005a53d7b09074cb5a13f4e6502b11ada39e44cfa2e0ca7c5d3cd778ac4df"
+    },
+    {
+      "path": "Core_h96_s2023/results/Core_PeriodGatedDLinear_h96_s2023_9d76cedec3_r0/training.json",
+      "sha256": "58f33cf90171c8989cf1dd3e541ff57171684d90be80e0b0ce7538d92b45703c"
+    },
+    {
+      "path": "Core_h96_s2023/results/Core_PeriodGatedDLinear_h96_s2023_9d76cedec3_r0/per_horizon.csv",
+      "sha256": "574b338a9f3efae55b87c86bd1f21de1877cd4efa865981f2f646b810920a2a3"
+    }
+  ]
+}

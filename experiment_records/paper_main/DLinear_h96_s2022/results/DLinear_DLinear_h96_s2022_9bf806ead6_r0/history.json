@@ -1,0 +1,26 @@
+[
+  {
+    "epoch": 1,
+    "train_mse": 0.1530551782106705,
+    "validation_mse": 0.12212488524666837,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 2,
+    "train_mse": 0.1453178693084548,
+    "validation_mse": 0.1226610924640045,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 3,
+    "train_mse": 0.14514113758537292,
+    "validation_mse": 0.12332611445416539,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 4,
+    "train_mse": 0.14504558327306624,
+    "validation_mse": 0.1229944162348933,
+    "train_batches": 1124
+  }
+]

@@ -1,0 +1,658 @@
+{
+  "seeds": [
+    2021,
+    2022,
+    2023
+  ],
+  "runs": 42,
+  "aggregates": {
+    "DLinear_24": {
+      "MAE": {
+        "mean": 0.21323619636064706,
+        "sd": 0.0004969965785950556
+      },
+      "RMSE": {
+        "mean": 0.3340258985715525,
+        "sd": 0.00026907464196376373
+      },
+      "training_seconds": {
+        "mean": 163.17183660000046,
+        "sd": 44.559499697951345
+      },
+      "peak_allocated_mib": {
+        "mean": 57.21484375,
+        "sd": 0.0
+      },
+      "parameters": 16176,
+      "epochs_completed": [
+        12,
+        11,
+        6
+      ]
+    },
+    "DLinear_96": {
+      "MAE": {
+        "mean": 0.2415345900079378,
+        "sd": 0.0019852256147861198
+      },
+      "RMSE": {
+        "mean": 0.3778836594349598,
+        "sd": 0.0009210075327095019
+      },
+      "training_seconds": {
+        "mean": 107.53500709999996,
+        "sd": 41.52728105283246
+      },
+      "peak_allocated_mib": {
+        "mean": 72.1435546875,
+        "sd": 0.0
+      },
+      "parameters": 64704,
+      "epochs_completed": [
+        8,
+        4,
+        8
+      ]
+    },
+    "LSTM_24": {
+      "MAE": {
+        "mean": 0.36018581908711195,
+        "sd": 0.005799353286663656
+      },
+      "RMSE": {
+        "mean": 0.5139540719122206,
+        "sd": 0.004372377902596335
+      },
+      "training_seconds": {
+        "mean": 167.9057272000003,
+        "sd": 35.0428103346488
+      },
+      "peak_allocated_mib": {
+        "mean": 109.0791015625,
+        "sd": 0.0
+      },
+      "parameters": 633112,
+      "epochs_completed": [
+        10,
+        14,
+        9
+      ]
+    },
+    "LSTM_96": {
+      "MAE": {
+        "mean": 0.378982728398588,
+        "sd": 0.006575707784320624
+      },
+      "RMSE": {
+        "mean": 0.5415001884751725,
+        "sd": 0.004937857151093407
+      },
+      "training_seconds": {
+        "mean": 221.73242563333284,
+        "sd": 55.45296711440679
+      },
+      "peak_allocated_mib": {
+        "mean": 139.9306640625,
+        "sd": 0.0
+      },
+      "parameters": 2135392,
+      "epochs_completed": [
+        10,
+        14,
+        10
+      ]
+    },
+    "GRU_24": {
+      "MAE": {
+        "mean": 0.36452669246894326,
+        "sd": 0.0014900307618732564
+      },
+      "RMSE": {
+        "mean": 0.5116663436849611,
+        "sd": 0.0004646991330884003
+      },
+      "training_seconds": {
+        "mean": 157.9893362999998,
+        "sd": 54.182145751640434
+      },
+      "peak_allocated_mib": {
+        "mean": 113.3046875,
+        "sd": 0.0
+      },
+      "parameters": 600024,
+      "epochs_completed": [
+        14,
+        8,
+        8
+      ]
+    },
+    "GRU_96": {
+      "MAE": {
+        "mean": 0.38795656108775695,
+        "sd": 0.0030152961833730184
+      },
+      "RMSE": {
+        "mean": 0.5499755210087638,
+        "sd": 0.0016768601721127345
+      },
+      "training_seconds": {
+        "mean": 167.66972633333353,
+        "sd": 49.65515184162692
+      },
+      "peak_allocated_mib": {
+        "mean": 142.5908203125,
+        "sd": 0.0
+      },
+      "parameters": 2102304,
+      "epochs_completed": [
+        7,
+        11,
+        13
+      ]
+    },
+    "Core_24": {
+      "MAE": {
+        "mean": 0.19976200278093648,
+        "sd": 0.0016349711389580265
+      },
+      "RMSE": {
+        "mean": 0.31953277066815583,
+        "sd": 0.0014451016544659873
+      },
+      "training_seconds": {
+        "mean": 236.13782199999937,
+        "sd": 90.89677629755617
+      },
+      "peak_allocated_mib": {
+        "mean": 64.5244140625,
+        "sd": 0.0
+      },
+      "parameters": 29107,
+      "epochs_completed": [
+        20,
+        14,
+        9
+      ]
+    },
+    "Core_96": {
+      "MAE": {
+        "mean": 0.22922459517690774,
+        "sd": 0.0004624196692079393
+      },
+      "RMSE": {
+        "mean": 0.3656225492800701,
+        "sd": 0.0003642046799310241
+      },
+      "training_seconds": {
+        "mean": 290.438267799999,
+        "sd": 50.76101073755004
+      },
+      "peak_allocated_mib": {
+        "mean": 84.4072265625,
+        "sd": 0.0
+      },
+      "parameters": 77635,
+      "epochs_completed": [
+        20,
+        17,
+        14
+      ]
+    },
+    "Weekly_24": {
+      "MAE": {
+        "mean": 0.20019407310633983,
+        "sd": 0.00242555317557967
+      },
+      "RMSE": {
+        "mean": 0.32002581122747004,
+        "sd": 0.0020998019267346743
+      },
+      "training_seconds": {
+        "mean": 299.5058117666667,
+        "sd": 102.06833262165756
+      },
+      "peak_allocated_mib": {
+        "mean": 61.68212890625,
+        "sd": 0.0
+      },
+      "parameters": 27482,
+      "epochs_completed": [
+        20,
+        10,
+        17
+      ]
+    },
+    "Weekly_96": {
+      "MAE": {
+        "mean": 0.23037154439294158,
+        "sd": 0.0019718470780343716
+      },
+      "RMSE": {
+        "mean": 0.36629573961424156,
+        "sd": 0.0016695193429536286
+      },
+      "training_seconds": {
+        "mean": 310.17993933333327,
+        "sd": 117.48033593077002
+      },
+      "peak_allocated_mib": {
+        "mean": 76.83056640625,
+        "sd": 0.0
+      },
+      "parameters": 76010,
+      "epochs_completed": [
+        9,
+        18,
+        20
+      ]
+    },
+    "Daily_24": {
+      "MAE": {
+        "mean": 0.208704782084908,
+        "sd": 0.0008699450111342662
+      },
+      "RMSE": {
+        "mean": 0.3303053427397361,
+        "sd": 0.0006027965204860119
+      },
+      "training_seconds": {
+        "mean": 177.84359736666678,
+        "sd": 31.89429163238922
+      },
+      "peak_allocated_mib": {
+        "mean": 59.22412109375,
+        "sd": 0.0
+      },
+      "parameters": 18122,
+      "epochs_completed": [
+        11,
+        8,
+        9
+      ]
+    },
+    "Daily_96": {
+      "MAE": {
+        "mean": 0.2355696887487461,
+        "sd": 0.0027321490804584053
+      },
+      "RMSE": {
+        "mean": 0.3723099394728431,
+        "sd": 0.0019368320796599122
+      },
+      "training_seconds": {
+        "mean": 235.36946206666653,
+        "sd": 101.86536368738298
+      },
+      "peak_allocated_mib": {
+        "mean": 73.90234375,
+        "sd": 0.0
+      },
+      "parameters": 66650,
+      "epochs_completed": [
+        15,
+        6,
+        15
+      ]
+    },
+    "Static_24": {
+      "MAE": {
+        "mean": 0.2017162059568221,
+        "sd": 0.00013780684727881845
+      },
+      "RMSE": {
+        "mean": 0.321836581248667,
+        "sd": 0.00012381439909043556
+      },
+      "training_seconds": {
+        "mean": 386.0651196333338,
+        "sd": 2.8388458650114123
+      },
+      "peak_allocated_mib": {
+        "mean": 57.365234375,
+        "sd": 0.0
+      },
+      "parameters": 28723,
+      "epochs_completed": [
+        20,
+        20,
+        20
+      ]
+    },
+    "Static_96": {
+      "MAE": {
+        "mean": 0.23310011511816656,
+        "sd": 0.0005964414846963628
+      },
+      "RMSE": {
+        "mean": 0.3687163577108594,
+        "sd": 0.00039983799718586166
+      },
+      "training_seconds": {
+        "mean": 709.9850690666668,
+        "sd": 855.8439944128689
+      },
+      "peak_allocated_mib": {
+        "mean": 79.3486328125,
+        "sd": 0.0
+      },
+      "parameters": 77251,
+      "epochs_completed": [
+        10,
+        14,
+        12
+      ]
+    }
+  },
+  "comparisons": {
+    "24": {
+      "mae_reduction_vs_dlinear_percent": 6.318905424912769,
+      "rmse_reduction_vs_dlinear_percent": 4.338923408447048,
+      "Weekly_mae_increase_vs_core_percent": 0.2162925478261135,
+      "Daily_mae_increase_vs_core_percent": 4.476716882829002,
+      "Static_mae_increase_vs_core_percent": 0.978265710535875
+    },
+    "96": {
+      "mae_reduction_vs_dlinear_percent": 5.096576366401806,
+      "rmse_reduction_vs_dlinear_percent": 3.24467857996914,
+      "Weekly_mae_increase_vs_core_percent": 0.5003604500418701,
+      "Daily_mae_increase_vs_core_percent": 2.7680683946421203,
+      "Static_mae_increase_vs_core_percent": 1.6907085988167259
+    }
+  },
+  "sources": [
+    {
+      "variant": "DLinear",
+      "horizon": 24,
+      "seed": 2021,
+      "path": "experiment_records\\paper_main\\DLinear_h24_s2021\\results\\DLinear_DLinear_h24_s2021_a34b6a10cb_r0\\metrics.json",
+      "sha256": "db5b8394f522e5cb81b6fb89b81babf9f9b41567f4f4edffc45544c5c4676c25"
+    },
+    {
+      "variant": "DLinear",
+      "horizon": 24,
+      "seed": 2022,
+      "path": "experiment_records\\paper_main\\DLinear_h24_s2022\\results\\DLinear_DLinear_h24_s2022_06a593ce71_r0\\metrics.json",
+      "sha256": "f4e8c177ab949519c0d6e7b1ed1449160bfd662dd3bbfb9f0955a2f668f34795"
+    },
+    {
+      "variant": "DLinear",
+      "horizon": 24,
+      "seed": 2023,
+      "path": "experiment_records\\paper_main\\DLinear_h24_s2023\\results\\DLinear_DLinear_h24_s2023_47704e2a45_r0\\metrics.json",
+      "sha256": "0a62830285849d6ccf9ac04bf8a13a58a3a9cd57f5b5605f2f51ba539167f1d4"
+    },
+    {
+      "variant": "DLinear",
+      "horizon": 96,
+      "seed": 2021,
+      "path": "experiment_records\\paper_main\\DLinear_h96_s2021\\results\\DLinear_DLinear_h96_s2021_10e01be035_r0\\metrics.json",
+      "sha256": "394e8924367fa31bada90d3bc05e9f650761c1c2bbc036f919fefe8604b15a6b"
+    },
+    {
+      "variant": "DLinear",
+      "horizon": 96,
+      "seed": 2022,
+      "path": "experiment_records\\paper_main\\DLinear_h96_s2022\\results\\DLinear_DLinear_h96_s2022_9bf806ead6_r0\\metrics.json",
+      "sha256": "e33f65f64a101b27d96884b2510f58403aab7d4a1b7376fad06f656e2d0c0077"
+    },
+    {
+      "variant": "DLinear",
+      "horizon": 96,
+      "seed": 2023,
+      "path": "experiment_records\\paper_main\\DLinear_h96_s2023\\results\\DLinear_DLinear_h96_s2023_b84e92ac0d_r0\\metrics.json",
+      "sha256": "bed56128e8da5437a0cbcc25ac68f6fcfc47994db759b2efd548ffe5417cebc4"
+    },
+    {
+      "variant": "LSTM",
+      "horizon": 24,
+      "seed": 2021,
+      "path": "experiment_records\\paper_main\\LSTM_h24_s2021\\results\\LSTM_LSTM_h24_s2021_7a35f9220b_r0\\metrics.json",
+      "sha256": "0f2dae598e831ad52b486e7c4fc9bb2fb98f03f988cac1cafaefc72b2ae6005b"
+    },
+    {
+      "variant": "LSTM",
+      "horizon": 24,
+      "seed": 2022,
+      "path": "experiment_records\\paper_main\\LSTM_h24_s2022\\results\\LSTM_LSTM_h24_s2022_66e74352dc_r0\\metrics.json",
+      "sha256": "ccc4c50ccb90fa6331d82a62bf0fa7846444e9a974dee4619f3d2124d086d270"
+    },
+    {
+      "variant": "LSTM",
+      "horizon": 24,
+      "seed": 2023,
+      "path": "experiment_records\\paper_main\\LSTM_h24_s2023\\results\\LSTM_LSTM_h24_s2023_b814e17e0f_r0\\metrics.json",
+      "sha256": "455ecc417747eaa393bf62e3410a4365c9f5f43452a8d9785fd5a926d75a3c64"
+    },
+    {
+      "variant": "LSTM",
+      "horizon": 96,
+      "seed": 2021,
+      "path": "experiment_records\\paper_main\\LSTM_h96_s2021\\results\\LSTM_LSTM_h96_s2021_486398c252_r0\\metrics.json",
+      "sha256": "de8d09950f78611b2d0a463ec37f6a5bc07b753fdee6614453ed35073ea754de"
+    },
+    {
+      "variant": "LSTM",
+      "horizon": 96,
+      "seed": 2022,
+      "path": "experiment_records\\paper_main\\LSTM_h96_s2022\\results\\LSTM_LSTM_h96_s2022_82d24ee606_r0\\metrics.json",
+      "sha256": "26814de2b4b8186a8b91fe4cc627407fa6d2eb97fbd2573864530de564109e9f"
+    },
+    {
+      "variant": "LSTM",
+      "horizon": 96,
+      "seed": 2023,
+      "path": "experiment_records\\paper_main\\LSTM_h96_s2023\\results\\LSTM_LSTM_h96_s2023_11fa611887_r0\\metrics.json",
+      "sha256": "4b425ca85cc09bf95f1f649afb73218eef57d1f0c55c7013f0361c1fd19b7e01"
+    },
+    {
+      "variant": "GRU",
+      "horizon": 24,
+      "seed": 2021,
+      "path": "experiment_records\\paper_main\\GRU_h24_s2021\\results\\GRU_GRU_h24_s2021_e2e9e6a5b3_r0\\metrics.json",
+      "sha256": "f0e83a10d6095a452dc2b4127fead52180ffb1775773e50e231b634712960739"
+    },
+    {
+      "variant": "GRU",
+      "horizon": 24,
+      "seed": 2022,
+      "path": "experiment_records\\paper_main\\GRU_h24_s2022\\results\\GRU_GRU_h24_s2022_f089a6f024_r0\\metrics.json",
+      "sha256": "59b4bfe52ae32de616a47bdbd05c10bafcd0f058781cadbe283c66205cd57532"
+    },
+    {
+      "variant": "GRU",
+      "horizon": 24,
+      "seed": 2023,
+      "path": "experiment_records\\paper_main\\GRU_h24_s2023\\results\\GRU_GRU_h24_s2023_10069104fe_r0\\metrics.json",
+      "sha256": "5c49165d2299262c7bcef3f5a850a7147062e3c013e8d35e317d565b6a9fe7b1"
+    },
+    {
+      "variant": "GRU",
+      "horizon": 96,
+      "seed": 2021,
+      "path": "experiment_records\\paper_main\\GRU_h96_s2021\\results\\GRU_GRU_h96_s2021_20d64a232f_r0\\metrics.json",
+      "sha256": "74ac3db8ada1fe95d6177f01f4a35fba6edaa198c172161fc6947c40b8c67aa0"
+    },
+    {
+      "variant": "GRU",
+      "horizon": 96,
+      "seed": 2022,
+      "path": "experiment_records\\paper_main\\GRU_h96_s2022\\results\\GRU_GRU_h96_s2022_573bd47441_r0\\metrics.json",
+      "sha256": "c439667a0603e4f971e0a3c703a0ef58b63b22ab9818227f8750d57db273c830"
+    },
+    {
+      "variant": "GRU",
+      "horizon": 96,
+      "seed": 2023,
+      "path": "experiment_records\\paper_main\\GRU_h96_s2023\\results\\GRU_GRU_h96_s2023_c53cd943d6_r0\\metrics.json",
+      "sha256": "525ce7a8c7989b2d57a9abf4d3d097be19362a03e0c68ee3895f82d81b6e4a7b"
+    },
+    {
+      "variant": "Core",
+      "horizon": 24,
+      "seed": 2021,
+      "path": "experiment_records\\paper_main\\Core_h24_s2021\\results\\Core_PeriodGatedDLinear_h24_s2021_b90023456c_r0\\metrics.json",
+      "sha256": "ccabc457f19b4e0df9a5c0aae5e0a93b46cd51787fab548aacced045b7cc0f20"
+    },
+    {
+      "variant": "Core",
+      "horizon": 24,
+      "seed": 2022,
+      "path": "experiment_records\\paper_main\\Core_h24_s2022\\results\\Core_PeriodGatedDLinear_h24_s2022_154047ff3c_r0\\metrics.json",
+      "sha256": "f7ca2da52ad49264e9eacc9340594192a0ff119f2b41f889dd1276cedb54d321"
+    },
+    {
+      "variant": "Core",
+      "horizon": 24,
+      "seed": 2023,
+      "path": "experiment_records\\paper_main\\Core_h24_s2023\\results\\Core_PeriodGatedDLinear_h24_s2023_c7b144cfd7_r0\\metrics.json",
+      "sha256": "97d48581052a773f8119d1005d7b464c5ab9cd3a39301410aea441d692be277d"
+    },
+    {
+      "variant": "Core",
+      "horizon": 96,
+      "seed": 2021,
+      "path": "experiment_records\\paper_main\\Core_h96_s2021\\results\\Core_PeriodGatedDLinear_h96_s2021_3ce6a7a58a_r0\\metrics.json",
+      "sha256": "54ce3c53e5d06c5298b2df9cb39a6fde6e1bc570b46804ae40b8fa32b11d1bf0"
+    },
+    {
+      "variant": "Core",
+      "horizon": 96,
+      "seed": 2022,
+      "path": "experiment_records\\paper_main\\Core_h96_s2022\\results\\Core_PeriodGatedDLinear_h96_s2022_8f6ff4a2f1_r0\\metrics.json",
+      "sha256": "d25cf008ae00df7cb206b5818b1c56aec5ad943b155db67f309bb1da40eb6ebd"
+    },
+    {
+      "variant": "Core",
+      "horizon": 96,
+      "seed": 2023,
+      "path": "experiment_records\\paper_main\\Core_h96_s2023\\results\\Core_PeriodGatedDLinear_h96_s2023_9d76cedec3_r0\\metrics.json",
+      "sha256": "05f2e99bd3e4029ee0ae2e5818c116c1dfb81d19c59bca82bc562389c3ed96b5"
+    },
+    {
+      "variant": "Weekly",
+      "horizon": 24,
+      "seed": 2021,
+      "path": "experiment_records\\paper_ablation_three\\Weekly_h24_s2021\\results\\Weekly_PeriodGatedDLinear_h24_s2021_081ff2287a_r0\\metrics.json",
+      "sha256": "3a5e8f3bd57cc0f9ab0dbd60b104fb22e23b7e5a1b5f184de1ee17347d591f9b"
+    },
+    {
+      "variant": "Weekly",
+      "horizon": 24,
+      "seed": 2022,
+      "path": "experiment_records\\paper_ablation_three\\Weekly_h24_s2022\\results\\Weekly_PeriodGatedDLinear_h24_s2022_8d7b3ae706_r0\\metrics.json",
+      "sha256": "0734e06d1d88d8420322248d13241d22610157b08284e71b33f642e839c4202d"
+    },
+    {
+      "variant": "Weekly",
+      "horizon": 24,
+      "seed": 2023,
+      "path": "experiment_records\\paper_ablation_three\\Weekly_h24_s2023\\results\\Weekly_PeriodGatedDLinear_h24_s2023_442b8e7af2_r0\\metrics.json",
+      "sha256": "a823bf58d3c81e9808c96c3b80d3a7d43cdcb32f48d5639cfb026fea80a0131e"
+    },
+    {
+      "variant": "Weekly",
+      "horizon": 96,
+      "seed": 2021,
+      "path": "experiment_records\\paper_ablation_three\\Weekly_h96_s2021\\results\\Weekly_PeriodGatedDLinear_h96_s2021_6c3ea10009_r0\\metrics.json",
+      "sha256": "56dffb50b5c1889b169939f2308d427fd8e955e50a6217346a95ea04d06556f1"
+    },
+    {
+      "variant": "Weekly",
+      "horizon": 96,
+      "seed": 2022,
+      "path": "experiment_records\\paper_ablation_three\\Weekly_h96_s2022\\results\\Weekly_PeriodGatedDLinear_h96_s2022_b6c3e33da6_r0\\metrics.json",
+      "sha256": "1f2d3a89d53938c3a2386c5f8705a38c8f8f65f908e42f9ac18287025b64ebb2"
+    },
+    {
+      "variant": "Weekly",
+      "horizon": 96,
+      "seed": 2023,
+      "path": "experiment_records\\paper_ablation_three\\Weekly_h96_s2023\\results\\Weekly_PeriodGatedDLinear_h96_s2023_dd255c16ce_r0\\metrics.json",
+      "sha256": "325d26ef84d0026cfb1cc9d153ba5847e33f929e4fdb08852e2e921127fd0772"
+    },
+    {
+      "variant": "Daily",
+      "horizon": 24,
+      "seed": 2021,
+      "path": "experiment_records\\paper_ablation_three\\Daily_h24_s2021\\results\\Daily_PeriodGatedDLinear_h24_s2021_8ac44355c3_r0\\metrics.json",
+      "sha256": "5530e7e90b500b835a81173e80287b7a94d24e2861d5dd514820fc0e10489f4b"
+    },
+    {
+      "variant": "Daily",
+      "horizon": 24,
+      "seed": 2022,
+      "path": "experiment_records\\paper_ablation_three\\Daily_h24_s2022\\results\\Daily_PeriodGatedDLinear_h24_s2022_857be9bf98_r0\\metrics.json",
+      "sha256": "58a438dff4618940a25006720560ecf62f628b576f125bc5e5b4a115cb6497f4"
+    },
+    {
+      "variant": "Daily",
+      "horizon": 24,
+      "seed": 2023,
+      "path": "experiment_records\\paper_ablation_three\\Daily_h24_s2023\\results\\Daily_PeriodGatedDLinear_h24_s2023_199af663e7_r0\\metrics.json",
+      "sha256": "125de383477f48cb9b68eec13cbea23930f5a5c6e4d0bc40d64f36aa4cd79f4b"
+    },
+    {
+      "variant": "Daily",
+      "horizon": 96,
+      "seed": 2021,
+      "path": "experiment_records\\paper_ablation_three\\Daily_h96_s2021\\results\\Daily_PeriodGatedDLinear_h96_s2021_334965030a_r0\\metrics.json",
+      "sha256": "53315e3049b04775fab60ea41d7639e6b4f3785232f909856cd3e4aece24702e"
+    },
+    {
+      "variant": "Daily",
+      "horizon": 96,
+      "seed": 2022,
+      "path": "experiment_records\\paper_ablation_three\\Daily_h96_s2022\\results\\Daily_PeriodGatedDLinear_h96_s2022_9bb718ebda_r0\\metrics.json",
+      "sha256": "691ad22bca52bc7085c7ffa708bb2eb258bfbd7265587459d2be74f59412b132"
+    },
+    {
+      "variant": "Daily",
+      "horizon": 96,
+      "seed": 2023,
+      "path": "experiment_records\\paper_ablation_three\\Daily_h96_s2023\\results\\Daily_PeriodGatedDLinear_h96_s2023_dfd539747f_r0\\metrics.json",
+      "sha256": "c2afcfc7dcf930475e24c300ef1cdce57f401ed4febf4d5cdb06af8d58b3f01f"
+    },
+    {
+      "variant": "Static",
+      "horizon": 24,
+      "seed": 2021,
+      "path": "experiment_records\\paper_ablation_three\\Static_h24_s2021\\results\\Static_PeriodGatedDLinear_h24_s2021_20ddd1ec50_r0\\metrics.json",
+      "sha256": "ecb55bf91d4c314dfc335fcbede4adec8792ecd353cdd8efbb1e432885640d19"
+    },
+    {
+      "variant": "Static",
+      "horizon": 24,
+      "seed": 2022,
+      "path": "experiment_records\\paper_ablation_three\\Static_h24_s2022\\results\\Static_PeriodGatedDLinear_h24_s2022_e253f3c70e_r0\\metrics.json",
+      "sha256": "4385bca27b0c8383a8a287aabac1bfa90e7e039c2c06ef51daba82337f7b804e"
+    },
+    {
+      "variant": "Static",
+      "horizon": 24,
+      "seed": 2023,
+      "path": "experiment_records\\paper_ablation_three\\Static_h24_s2023\\results\\Static_PeriodGatedDLinear_h24_s2023_8b2d2e1e1e_r0\\metrics.json",
+      "sha256": "cb055a14e444c74ba769d1b501f8fc0fb76ba8ae41d393c9b644901f6601b921"
+    },
+    {
+      "variant": "Static",
+      "horizon": 96,
+      "seed": 2021,
+      "path": "experiment_records\\paper_ablation_three\\Static_h96_s2021\\results\\Static_PeriodGatedDLinear_h96_s2021_bc666d00b0_r0\\metrics.json",
+      "sha256": "0a5884e315ced30446c0b0f7aca50d55c4f3f2889d56d61a3a761f096f1ab22f"
+    },
+    {
+      "variant": "Static",
+      "horizon": 96,
+      "seed": 2022,
+      "path": "experiment_records\\paper_ablation_three\\Static_h96_s2022\\results\\Static_PeriodGatedDLinear_h96_s2022_4617794a7f_r0\\metrics.json",
+      "sha256": "0baff0544c4e635b9bc15b91e6d9d014d1871140dd2e830003a663a69fa37f88"
+    },
+    {
+      "variant": "Static",
+      "horizon": 96,
+      "seed": 2023,
+      "path": "experiment_records\\paper_ablation_three\\Static_h96_s2023\\results\\Static_PeriodGatedDLinear_h96_s2023_195ad6db28_r0\\metrics.json",
+      "sha256": "71d21d29e2a0e71989bbba35b30af96b569b8296a9f5535fd52e8ebf114f5240"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Coursework entry point on Python 3.11. Install the CUDA wheel per README.md.
+torch==2.7.1
+numpy==1.26.4
+pandas==2.0.3
+scikit-learn==1.3.0
+scipy==1.11.1
+matplotlib==3.7.2
+einops==0.8.2
+tqdm==4.65.0

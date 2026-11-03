@@ -1,0 +1,382 @@
+{
+  "variants": [
+    "Weekly",
+    "Daily",
+    "Static"
+  ],
+  "runs": 18,
+  "seeds": [
+    2021,
+    2022,
+    2023
+  ],
+  "horizons": [
+    24,
+    96
+  ],
+  "original_summary_sha256": "3bf25d6004bb3841dcbc76eaafa9a56192d62713df91e3988a4c624100098511",
+  "original_manifest_sha256": "f67870b919131ba424657cee1035b3273e87e2df44fd0e25773895a7e466fcbe",
+  "note": "Original run manifest is unchanged and may describe additional jobs; the paper selects the variants listed here.",
+  "files": [
+    {
+      "path": "Weekly_h24_s2021/results/Weekly_PeriodGatedDLinear_h24_s2021_081ff2287a_r0/metrics.json",
+      "sha256": "3a5e8f3bd57cc0f9ab0dbd60b104fb22e23b7e5a1b5f184de1ee17347d591f9b"
+    },
+    {
+      "path": "Weekly_h24_s2021/results/Weekly_PeriodGatedDLinear_h24_s2021_081ff2287a_r0/config.json",
+      "sha256": "a05d1d1a417d905efa70b9cb3e4f24a3b16695acd2e54d3bec5c0b1960d0ef09"
+    },
+    {
+      "path": "Weekly_h24_s2021/results/Weekly_PeriodGatedDLinear_h24_s2021_081ff2287a_r0/history.json",
+      "sha256": "8375a1a985f66878cd81172c7d2c36154fa3468a244a0af0ba1e4d0d5f312ff7"
+    },
+    {
+      "path": "Weekly_h24_s2021/results/Weekly_PeriodGatedDLinear_h24_s2021_081ff2287a_r0/training.json",
+      "sha256": "1345b173765dd2170f1d574a084062a0d8b1be869ad666438ddf75288785d4ac"
+    },
+    {
+      "path": "Weekly_h24_s2021/results/Weekly_PeriodGatedDLinear_h24_s2021_081ff2287a_r0/per_horizon.csv",
+      "sha256": "52176db73b824be1c291beca9ebe9565a45ddc62fdd3b74477b69c45ce9cdfec"
+    },
+    {
+      "path": "Weekly_h24_s2022/results/Weekly_PeriodGatedDLinear_h24_s2022_8d7b3ae706_r0/metrics.json",
+      "sha256": "0734e06d1d88d8420322248d13241d22610157b08284e71b33f642e839c4202d"
+    },
+    {
+      "path": "Weekly_h24_s2022/results/Weekly_PeriodGatedDLinear_h24_s2022_8d7b3ae706_r0/config.json",
+      "sha256": "2f4f5e999d06deae5283f67d034db7817e2acd7f652d2b39777e2b30bf7025fc"
+    },
+    {
+      "path": "Weekly_h24_s2022/results/Weekly_PeriodGatedDLinear_h24_s2022_8d7b3ae706_r0/history.json",
+      "sha256": "e51652a2e32115291c1f8e4aa1dbe4167a69194881c16f318c2da1b4dd4a3074"
+    },
+    {
+      "path": "Weekly_h24_s2022/results/Weekly_PeriodGatedDLinear_h24_s2022_8d7b3ae706_r0/training.json",
+      "sha256": "93e0353e07ab37b393936280bd5c0a39b67458aab4149fd81c3fe2d427767acd"
+    },
+    {
+      "path": "Weekly_h24_s2022/results/Weekly_PeriodGatedDLinear_h24_s2022_8d7b3ae706_r0/per_horizon.csv",
+      "sha256": "a3e4dbc1b6ab8fd3cc1350e49ed71c40de375be2056c57e48f9e2d20b76c6057"
+    },
+    {
+      "path": "Weekly_h24_s2023/results/Weekly_PeriodGatedDLinear_h24_s2023_442b8e7af2_r0/metrics.json",
+      "sha256": "a823bf58d3c81e9808c96c3b80d3a7d43cdcb32f48d5639cfb026fea80a0131e"
+    },
+    {
+      "path": "Weekly_h24_s2023/results/Weekly_PeriodGatedDLinear_h24_s2023_442b8e7af2_r0/config.json",
+      "sha256": "8e6547236926dd2190c6926d573c2c4b35923aaf7242773161d8cc16b31d5614"
+    },
+    {
+      "path": "Weekly_h24_s2023/results/Weekly_PeriodGatedDLinear_h24_s2023_442b8e7af2_r0/history.json",
+      "sha256": "941a3d070ccf57e3492f675685735302a6d3a5978df94904b42b9e798faebb95"
+    },
+    {
+      "path": "Weekly_h24_s2023/results/Weekly_PeriodGatedDLinear_h24_s2023_442b8e7af2_r0/training.json",
+      "sha256": "8b1cc50c590a97455d4f92f4e941b6ce5d2660975d19c8507cbcc41b95459a5a"
+    },
+    {
+      "path": "Weekly_h24_s2023/results/Weekly_PeriodGatedDLinear_h24_s2023_442b8e7af2_r0/per_horizon.csv",
+      "sha256": "d4064c90b89cc2b1252baf6979653e36c1234de3b65da8568406b4475077d1f6"
+    },
+    {
+      "path": "Weekly_h96_s2021/results/Weekly_PeriodGatedDLinear_h96_s2021_6c3ea10009_r0/metrics.json",
+      "sha256": "56dffb50b5c1889b169939f2308d427fd8e955e50a6217346a95ea04d06556f1"
+    },
+    {
+      "path": "Weekly_h96_s2021/results/Weekly_PeriodGatedDLinear_h96_s2021_6c3ea10009_r0/config.json",
+      "sha256": "126d3be0a50d90aae77f649b286503597191a9d2eb8f2bc67355bf1980807005"
+    },
+    {
+      "path": "Weekly_h96_s2021/results/Weekly_PeriodGatedDLinear_h96_s2021_6c3ea10009_r0/history.json",
+      "sha256": "20439b30ad3032ad0c06909ded0b05a1cd2e2506577995131c53be21d09ecee2"
+    },
+    {
+      "path": "Weekly_h96_s2021/results/Weekly_PeriodGatedDLinear_h96_s2021_6c3ea10009_r0/training.json",
+      "sha256": "8db40c5b3280c787ce76e2cb2b801a5045269fc4628a3b85fd54999aff1b4316"
+    },
+    {
+      "path": "Weekly_h96_s2021/results/Weekly_PeriodGatedDLinear_h96_s2021_6c3ea10009_r0/per_horizon.csv",
+      "sha256": "82c48f93e213c05d6f5b5f6c391c346f9ba4841956b4d71697b8080d1b5c2583"
+    },
+    {
+      "path": "Weekly_h96_s2022/results/Weekly_PeriodGatedDLinear_h96_s2022_b6c3e33da6_r0/metrics.json",
+      "sha256": "1f2d3a89d53938c3a2386c5f8705a38c8f8f65f908e42f9ac18287025b64ebb2"
+    },
+    {
+      "path": "Weekly_h96_s2022/results/Weekly_PeriodGatedDLinear_h96_s2022_b6c3e33da6_r0/config.json",
+      "sha256": "ef8f2d47f46e11d4a72ebd9757db2781166aca450424339520ba378aaca9d10f"
+    },
+    {
+      "path": "Weekly_h96_s2022/results/Weekly_PeriodGatedDLinear_h96_s2022_b6c3e33da6_r0/history.json",
+      "sha256": "c1eb56f020a40b2eb5d633cc0ffe1a98ce45367aff4beeb8240157466f11581f"
+    },
+    {
+      "path": "Weekly_h96_s2022/results/Weekly_PeriodGatedDLinear_h96_s2022_b6c3e33da6_r0/training.json",
+      "sha256": "5f707cb4f0c4d85b93820ce7cb2259c8a49f412fc2a1cd23fdb415f9a57eb2d0"
+    },
+    {
+      "path": "Weekly_h96_s2022/results/Weekly_PeriodGatedDLinear_h96_s2022_b6c3e33da6_r0/per_horizon.csv",
+      "sha256": "b6c1a5d1cf76fa2ac28598d4c6a3dc90ab5e6d663c33394c4be67adf6884a688"
+    },
+    {
+      "path": "Weekly_h96_s2023/results/Weekly_PeriodGatedDLinear_h96_s2023_dd255c16ce_r0/metrics.json",
+      "sha256": "325d26ef84d0026cfb1cc9d153ba5847e33f929e4fdb08852e2e921127fd0772"
+    },
+    {
+      "path": "Weekly_h96_s2023/results/Weekly_PeriodGatedDLinear_h96_s2023_dd255c16ce_r0/config.json",
+      "sha256": "ee95c970f8b4da7525ef03a0b6e72f31f6d6cf07db012e709e95d96fffb5e547"
+    },
+    {
+      "path": "Weekly_h96_s2023/results/Weekly_PeriodGatedDLinear_h96_s2023_dd255c16ce_r0/history.json",
+      "sha256": "e99d90ad212f0059ec083a2f5af615729f2719fdbefdc4d8196be7ffd590690a"
+    },
+    {
+      "path": "Weekly_h96_s2023/results/Weekly_PeriodGatedDLinear_h96_s2023_dd255c16ce_r0/training.json",
+      "sha256": "df51b88447bdef6df3a841b862fcb177e5fc1087d2c3d8ccba20faf1502e3175"
+    },
+    {
+      "path": "Weekly_h96_s2023/results/Weekly_PeriodGatedDLinear_h96_s2023_dd255c16ce_r0/per_horizon.csv",
+      "sha256": "bcba8cad038e23a013aa08192fbb6c5f67b751419ad149c00efce7ba23d46845"
+    },
+    {
+      "path": "Daily_h24_s2021/results/Daily_PeriodGatedDLinear_h24_s2021_8ac44355c3_r0/metrics.json",
+      "sha256": "5530e7e90b500b835a81173e80287b7a94d24e2861d5dd514820fc0e10489f4b"
+    },
+    {
+      "path": "Daily_h24_s2021/results/Daily_PeriodGatedDLinear_h24_s2021_8ac44355c3_r0/config.json",
+      "sha256": "6559783f51ce457cdcd16f6cf97cdbe95339a7e390e1288047229715e726aa1f"
+    },
+    {
+      "path": "Daily_h24_s2021/results/Daily_PeriodGatedDLinear_h24_s2021_8ac44355c3_r0/history.json",
+      "sha256": "c95b7ebb611fc0c24ec69325bf731ab9c324251a73c89f1995e27f8b9eed738f"
+    },
+    {
+      "path": "Daily_h24_s2021/results/Daily_PeriodGatedDLinear_h24_s2021_8ac44355c3_r0/training.json",
+      "sha256": "682bcb77301ff27ab285e70603981f205b02e712bb96880c839d9c854bf04353"
+    },
+    {
+      "path": "Daily_h24_s2021/results/Daily_PeriodGatedDLinear_h24_s2021_8ac44355c3_r0/per_horizon.csv",
+      "sha256": "8c546fd69627bafdfed54c10d99170851d871f0357cb2b8cd15772ca17584f8d"
+    },
+    {
+      "path": "Daily_h24_s2022/results/Daily_PeriodGatedDLinear_h24_s2022_857be9bf98_r0/metrics.json",
+      "sha256": "58a438dff4618940a25006720560ecf62f628b576f125bc5e5b4a115cb6497f4"
+    },
+    {
+      "path": "Daily_h24_s2022/results/Daily_PeriodGatedDLinear_h24_s2022_857be9bf98_r0/config.json",
+      "sha256": "750dc05502ee9dad8ddfad46e4ba144a7aabf0e8a027453218ace5ac5dbf6b9c"
+    },
+    {
+      "path": "Daily_h24_s2022/results/Daily_PeriodGatedDLinear_h24_s2022_857be9bf98_r0/history.json",
+      "sha256": "44d1e4c4e35448160fc04f2a984c422914f974f81cfd169474845b72a25d86dd"
+    },
+    {
+      "path": "Daily_h24_s2022/results/Daily_PeriodGatedDLinear_h24_s2022_857be9bf98_r0/training.json",
+      "sha256": "00ef4340e2429fcd87ce0bd6cc70c0602a9993efb347d1b102894b6e4e5330b0"
+    },
+    {
+      "path": "Daily_h24_s2022/results/Daily_PeriodGatedDLinear_h24_s2022_857be9bf98_r0/per_horizon.csv",
+      "sha256": "c72de2ff1b6bd9a0e948c99186e770cd67dd256bbb5cb1cc13d0d1d046cd3171"
+    },
+    {
+      "path": "Daily_h24_s2023/results/Daily_PeriodGatedDLinear_h24_s2023_199af663e7_r0/metrics.json",
+      "sha256": "125de383477f48cb9b68eec13cbea23930f5a5c6e4d0bc40d64f36aa4cd79f4b"
+    },
+    {
+      "path": "Daily_h24_s2023/results/Daily_PeriodGatedDLinear_h24_s2023_199af663e7_r0/config.json",
+      "sha256": "671fe920a25d47ffa59aa754d82cec6a089177e2123150ec79ad8cc8987f6e03"
+    },
+    {
+      "path": "Daily_h24_s2023/results/Daily_PeriodGatedDLinear_h24_s2023_199af663e7_r0/history.json",
+      "sha256": "2e97d129302ffc6b7fcc9b5c152c0a0f806f4aa913bb15b6de95a7532eb2eceb"
+    },
+    {
+      "path": "Daily_h24_s2023/results/Daily_PeriodGatedDLinear_h24_s2023_199af663e7_r0/training.json",
+      "sha256": "dfb0974ce4d0c2ba03fe3ae30cb06c7f65d7be1ec96a22dda618fc87a438f847"
+    },
+    {
+      "path": "Daily_h24_s2023/results/Daily_PeriodGatedDLinear_h24_s2023_199af663e7_r0/per_horizon.csv",
+      "sha256": "76dbd7312528a2ef84d898306fd9482dd02f5fc721bd6d1aab682f0c2e76151f"
+    },
+    {
+      "path": "Daily_h96_s2021/results/Daily_PeriodGatedDLinear_h96_s2021_334965030a_r0/metrics.json",
+      "sha256": "53315e3049b04775fab60ea41d7639e6b4f3785232f909856cd3e4aece24702e"
+    },
+    {
+      "path": "Daily_h96_s2021/results/Daily_PeriodGatedDLinear_h96_s2021_334965030a_r0/config.json",
+      "sha256": "451b51e1c27684602ef16019c499845c1b41dd3709019031bd78978ff6a04f41"
+    },
+    {
+      "path": "Daily_h96_s2021/results/Daily_PeriodGatedDLinear_h96_s2021_334965030a_r0/history.json",
+      "sha256": "63cc8e22be5e7f919c6f6e93af9974805bd3163b737da9c1232ecf13d5e2251b"
+    },
+    {
+      "path": "Daily_h96_s2021/results/Daily_PeriodGatedDLinear_h96_s2021_334965030a_r0/training.json",
+      "sha256": "4742d0e318e33c9df052fda6a3cf4c4d99248e7af56bc1321e670e460041ba1e"
+    },
+    {
+      "path": "Daily_h96_s2021/results/Daily_PeriodGatedDLinear_h96_s2021_334965030a_r0/per_horizon.csv",
+      "sha256": "11ebeab221831d2bbba964ff2530fd5843020fb89a665634addf96cccf1a483a"
+    },
+    {
+      "path": "Daily_h96_s2022/results/Daily_PeriodGatedDLinear_h96_s2022_9bb718ebda_r0/metrics.json",
+      "sha256": "691ad22bca52bc7085c7ffa708bb2eb258bfbd7265587459d2be74f59412b132"
+    },
+    {
+      "path": "Daily_h96_s2022/results/Daily_PeriodGatedDLinear_h96_s2022_9bb718ebda_r0/config.json",
+      "sha256": "218257c77d6d5a73f7703d16ab541f5b990f3ed468a86e58c23e42d758ead9e0"
+    },
+    {
+      "path": "Daily_h96_s2022/results/Daily_PeriodGatedDLinear_h96_s2022_9bb718ebda_r0/history.json",
+      "sha256": "144e91f122f1fab9152843681e102bf59b927ad9f35f653a98d244c7fdc5178c"
+    },
+    {
+      "path": "Daily_h96_s2022/results/Daily_PeriodGatedDLinear_h96_s2022_9bb718ebda_r0/training.json",
+      "sha256": "7c5e221b89b644c56a30c6d7ad14742d29a4e2cfce6a4ff14950f205a96c49b0"
+    },
+    {
+      "path": "Daily_h96_s2022/results/Daily_PeriodGatedDLinear_h96_s2022_9bb718ebda_r0/per_horizon.csv",
+      "sha256": "5e084d6658a81a2820a0502323e65dde58bb923cf2e1e79a00491b8b0118b0c3"
+    },
+    {
+      "path": "Daily_h96_s2023/results/Daily_PeriodGatedDLinear_h96_s2023_dfd539747f_r0/metrics.json",
+      "sha256": "c2afcfc7dcf930475e24c300ef1cdce57f401ed4febf4d5cdb06af8d58b3f01f"
+    },
+    {
+      "path": "Daily_h96_s2023/results/Daily_PeriodGatedDLinear_h96_s2023_dfd539747f_r0/config.json",
+      "sha256": "3599b644492db95b5c7f12c11482f942259381bdf342b5d7930dd277b7071284"
+    },
+    {
+      "path": "Daily_h96_s2023/results/Daily_PeriodGatedDLinear_h96_s2023_dfd539747f_r0/history.json",
+      "sha256": "5701a09bf2055d878718bc89a66bcb9d35cecff15210755e934d71f7b478aa5b"
+    },
+    {
+      "path": "Daily_h96_s2023/results/Daily_PeriodGatedDLinear_h96_s2023_dfd539747f_r0/training.json",
+      "sha256": "3c83acb8384f4f6737af49b343c76dae2c54ad4992688cdb54fc2b8249939962"
+    },
+    {
+      "path": "Daily_h96_s2023/results/Daily_PeriodGatedDLinear_h96_s2023_dfd539747f_r0/per_horizon.csv",
+      "sha256": "bc4a6bcbb76eeb529858c5c99e5c36946354cc91c932cbe726919d3fc3712b74"
+    },
+    {
+      "path": "Static_h24_s2021/results/Static_PeriodGatedDLinear_h24_s2021_20ddd1ec50_r0/metrics.json",
+      "sha256": "ecb55bf91d4c314dfc335fcbede4adec8792ecd353cdd8efbb1e432885640d19"
+    },
+    {
+      "path": "Static_h24_s2021/results/Static_PeriodGatedDLinear_h24_s2021_20ddd1ec50_r0/config.json",
+      "sha256": "0ac4e3c8661289e0e8cb9af5adef989c2eef79204f4f1fea48f507f017f80b0d"
+    },
+    {
+      "path": "Static_h24_s2021/results/Static_PeriodGatedDLinear_h24_s2021_20ddd1ec50_r0/history.json",
+      "sha256": "51ab8873d244dedbbcee519c627f48e1eca16cc3a06c6f56cdadb8f815f4e193"
+    },
+    {
+      "path": "Static_h24_s2021/results/Static_PeriodGatedDLinear_h24_s2021_20ddd1ec50_r0/training.json",
+      "sha256": "e330f0995ca7c55454bb9fd443ca89a20a0694a0fad6a5e98af47e3a3aaa5306"
+    },
+    {
+      "path": "Static_h24_s2021/results/Static_PeriodGatedDLinear_h24_s2021_20ddd1ec50_r0/per_horizon.csv",
+      "sha256": "908d2e4baea43b9a325ef8dca595adb79ea618532eaa7b0f72b560c390004949"
+    },
+    {
+      "path": "Static_h24_s2022/results/Static_PeriodGatedDLinear_h24_s2022_e253f3c70e_r0/metrics.json",
+      "sha256": "4385bca27b0c8383a8a287aabac1bfa90e7e039c2c06ef51daba82337f7b804e"
+    },
+    {
+      "path": "Static_h24_s2022/results/Static_PeriodGatedDLinear_h24_s2022_e253f3c70e_r0/config.json",
+      "sha256": "f47c1e722912ea21f49307b25e9ebd51fece93eeafba8edeadc62cbaff3b6f11"
+    },
+    {
+      "path": "Static_h24_s2022/results/Static_PeriodGatedDLinear_h24_s2022_e253f3c70e_r0/history.json",
+      "sha256": "8e2e3aae8e42a01415fe1c7e2727c5391063497ae319d21a8b526d6192ac6850"
+    },
+    {
+      "path": "Static_h24_s2022/results/Static_PeriodGatedDLinear_h24_s2022_e253f3c70e_r0/training.json",
+      "sha256": "e3dca7253a2596dd5303c3a562d5ef6a57bba90b27ba8181cd011804ee6ff575"
+    },
+    {
+      "path": "Static_h24_s2022/results/Static_PeriodGatedDLinear_h24_s2022_e253f3c70e_r0/per_horizon.csv",
+      "sha256": "4324f90bfe84de83d42cefd832f55af66bb7fd47512c1dc9869cd0d6325c61df"
+    },
+    {
+      "path": "Static_h24_s2023/results/Static_PeriodGatedDLinear_h24_s2023_8b2d2e1e1e_r0/metrics.json",
+      "sha256": "cb055a14e444c74ba769d1b501f8fc0fb76ba8ae41d393c9b644901f6601b921"
+    },
+    {
+      "path": "Static_h24_s2023/results/Static_PeriodGatedDLinear_h24_s2023_8b2d2e1e1e_r0/config.json",
+      "sha256": "3614c0990c0e76594661b59e1330e4fe852b96ad6460972f4530c97138af9745"
+    },
+    {
+      "path": "Static_h24_s2023/results/Static_PeriodGatedDLinear_h24_s2023_8b2d2e1e1e_r0/history.json",
+      "sha256": "fa1529a6830191d5f75854ec8b7a6f93a0b7d2a0112bb1e6dd88247f9f45323a"
+    },
+    {
+      "path": "Static_h24_s2023/results/Static_PeriodGatedDLinear_h24_s2023_8b2d2e1e1e_r0/training.json",
+      "sha256": "ff0afd8b28e98e2172bf40056d6061c0ea043297fb4a792dd71d8088cf571e27"
+    },
+    {
+      "path": "Static_h24_s2023/results/Static_PeriodGatedDLinear_h24_s2023_8b2d2e1e1e_r0/per_horizon.csv",
+      "sha256": "93f0906aeff90c7008dd35696f30ca906bc36eaf455149c6d71d0a394223326c"
+    },
+    {
+      "path": "Static_h96_s2021/results/Static_PeriodGatedDLinear_h96_s2021_bc666d00b0_r0/metrics.json",
+      "sha256": "0a5884e315ced30446c0b0f7aca50d55c4f3f2889d56d61a3a761f096f1ab22f"
+    },
+    {
+      "path": "Static_h96_s2021/results/Static_PeriodGatedDLinear_h96_s2021_bc666d00b0_r0/config.json",
+      "sha256": "ea4a662808bfc74e540b6f0583a94d2fe3ada4ce9853c06cc34672999f176579"
+    },
+    {
+      "path": "Static_h96_s2021/results/Static_PeriodGatedDLinear_h96_s2021_bc666d00b0_r0/history.json",
+      "sha256": "06eaad86526b404834fb3754544bd91ea66a8ceed87503749cdb07da1b0fd9bb"
+    },
+    {
+      "path": "Static_h96_s2021/results/Static_PeriodGatedDLinear_h96_s2021_bc666d00b0_r0/training.json",
+      "sha256": "73f36bc5390bcf85107ca9bf89e3c04217cd66aa38705525e1e1931a20939dbc"
+    },
+    {
+      "path": "Static_h96_s2021/results/Static_PeriodGatedDLinear_h96_s2021_bc666d00b0_r0/per_horizon.csv",
+      "sha256": "7b3f0661b0431fce1eddc62ad8982957acdcaebad7d0f038f77e4570970d6f85"
+    },
+    {
+      "path": "Static_h96_s2022/results/Static_PeriodGatedDLinear_h96_s2022_4617794a7f_r0/metrics.json",
+      "sha256": "0baff0544c4e635b9bc15b91e6d9d014d1871140dd2e830003a663a69fa37f88"
+    },
+    {
+      "path": "Static_h96_s2022/results/Static_PeriodGatedDLinear_h96_s2022_4617794a7f_r0/config.json",
+      "sha256": "5c54d8d202965e9b6f60949249564578d2448e054bd158660fa3484c47b0cf0d"
+    },
+    {
+      "path": "Static_h96_s2022/results/Static_PeriodGatedDLinear_h96_s2022_4617794a7f_r0/history.json",
+      "sha256": "40d82cfbb10dad22b0c8095621618c4ef6f2f2f24f9bd0d979cf5a6c9b237528"
+    },
+    {
+      "path": "Static_h96_s2022/results/Static_PeriodGatedDLinear_h96_s2022_4617794a7f_r0/training.json",
+      "sha256": "19a16c10fe426e0ef7bf81fc7aaba588c3ad7012c689ba98954b3547ff886a77"
+    },
+    {
+      "path": "Static_h96_s2022/results/Static_PeriodGatedDLinear_h96_s2022_4617794a7f_r0/per_horizon.csv",
+      "sha256": "d689790dfceefe29e2ecb5a3d785237587645e9f889960feca646de3ceb5c1aa"
+    },
+    {
+      "path": "Static_h96_s2023/results/Static_PeriodGatedDLinear_h96_s2023_195ad6db28_r0/metrics.json",
+      "sha256": "71d21d29e2a0e71989bbba35b30af96b569b8296a9f5535fd52e8ebf114f5240"
+    },
+    {
+      "path": "Static_h96_s2023/results/Static_PeriodGatedDLinear_h96_s2023_195ad6db28_r0/config.json",
+      "sha256": "9828dd9483bd36d9dc48a2dfdc2b725b7be689c48beccd918271760dbdcbf794"
+    },
+    {
+      "path": "Static_h96_s2023/results/Static_PeriodGatedDLinear_h96_s2023_195ad6db28_r0/history.json",
+      "sha256": "ec01fd49e858ba49c21c996ac23ed32685b4d92208cd86c1473f73be66d11177"
+    },
+    {
+      "path": "Static_h96_s2023/results/Static_PeriodGatedDLinear_h96_s2023_195ad6db28_r0/training.json",
+      "sha256": "3b7207074734a723eaaee64c21dcfa3e55b29ed2f4ca0fd730134747ce21bc98"
+    },
+    {
+      "path": "Static_h96_s2023/results/Static_PeriodGatedDLinear_h96_s2023_195ad6db28_r0/per_horizon.csv",
+      "sha256": "aaedc450098f0e18f03cf1bc8ceedeedc528297b21c0f836aa99c5426319dbfe"
+    }
+  ]
+}

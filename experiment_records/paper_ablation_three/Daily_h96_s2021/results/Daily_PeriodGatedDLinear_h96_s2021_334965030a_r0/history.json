@@ -1,0 +1,92 @@
+[
+  {
+    "epoch": 1,
+    "train_mse": 0.1498928995438674,
+    "validation_mse": 0.12177858851562587,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 2,
+    "train_mse": 0.14096330302830076,
+    "validation_mse": 0.12056950430735383,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 3,
+    "train_mse": 0.14000099470429622,
+    "validation_mse": 0.1198362893426381,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 4,
+    "train_mse": 0.13948998840903953,
+    "validation_mse": 0.11926421436435428,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 5,
+    "train_mse": 0.1390537369243627,
+    "validation_mse": 0.11876679564458924,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 6,
+    "train_mse": 0.1387915363165781,
+    "validation_mse": 0.11837010666353473,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 7,
+    "train_mse": 0.13846481466906918,
+    "validation_mse": 0.119083831946884,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 8,
+    "train_mse": 0.13827575175858706,
+    "validation_mse": 0.1187177634337672,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 9,
+    "train_mse": 0.1380433851508992,
+    "validation_mse": 0.11792678092936891,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 10,
+    "train_mse": 0.1378721610112746,
+    "validation_mse": 0.11829000814973856,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 11,
+    "train_mse": 0.13768540795729428,
+    "validation_mse": 0.11783027653063483,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 12,
+    "train_mse": 0.13753090892748468,
+    "validation_mse": 0.11762250858487915,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 13,
+    "train_mse": 0.1373958427621223,
+    "validation_mse": 0.11772770791601216,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 14,
+    "train_mse": 0.13729196339124675,
+    "validation_mse": 0.11778456277546459,
+    "train_batches": 1124
+  },
+  {
+    "epoch": 15,
+    "train_mse": 0.13713244943493208,
+    "validation_mse": 0.11783215927555538,
+    "train_batches": 1124
+  }
+]
